@@ -1,6 +1,6 @@
 # Hardening seguro para servidores Ubuntu/Debian
 
-`hardening_safe.sh` es un script de endurecimiento de seguridad diseñado para entornos reales (VPS, servidores en producción, máquinas remotas sin acceso físico), con un objetivo claro:
+`hardening_linux.sh` es un script de endurecimiento de seguridad diseñado para entornos reales (VPS, servidores en producción, máquinas remotas sin acceso físico), con un objetivo claro:
 
 **Mejorar la seguridad sin riesgo de perder acceso ni romper servicios.**
 
