@@ -136,7 +136,6 @@ wget https://ruta-tu-repo/hardening_linux.sh -O hardening_linux.sh
 chmod +x hardening_linux.sh
 sudo bash ./hardening_linux.sh
 
-##Disclaimer
 
 Este script está diseñado para endurecer un sistema remoto sin dejarte bloqueado fuera y sin tirar servicios críticos en caliente.
 Aun así:
@@ -145,7 +144,6 @@ Si tienes un firewall muy personalizado, reglas nftables complejas, software exp
 
 Aplica el hardening avanzado (SSH más estricto, sysctl agresivos, cierre de servicios) sólo cuando tengas una vía de acceso alternativa garantizada (consola fuera de banda, otra sesión SSH probada, etc.).
 
-##En resumen:
 Este script da una base defensiva segura y operativa. Endurece sin romper, y deja lo “peligroso pero recomendable” preparado para que lo actives tú cuando ya estés seguro de no perder acceso.
 chmod +x hardening_safe.sh
 sudo bash ./hardening_safe.sh
