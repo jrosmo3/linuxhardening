@@ -132,7 +132,9 @@ Importante: este script **no sustituye el parcheo del sistema**. No actualiza ke
 ## Uso
 
 ```bash
-wget https://ruta-tu-repo/hardening_linux.sh -O hardening_linux.sh
+git clone
+cd /opt/linuxhardening
+sed -i 's/\r$//' hardening_linux.sh      (Esto para evitar error "/bin/bash^M: intérprete erróneo")
 chmod +x hardening_linux.sh
 sudo bash ./hardening_linux.sh
 
